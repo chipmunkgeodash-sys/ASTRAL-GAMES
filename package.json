@@ -1,0 +1,20 @@
+{
+  "name": "astral-proxy-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Wisp backend for the Astral browser",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test --test-force-exit --test-timeout=20000 \"test/*.test.mjs\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@mercuryworkshop/wisp-js": "^0.5.0"
+  },
+  "devDependencies": {
+    "ws": "^8.22.0"
+  }
+}
